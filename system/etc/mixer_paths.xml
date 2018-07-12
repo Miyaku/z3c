@@ -2230,9 +2230,9 @@
         <ctl name="HPHL DAC Switch" value="1" />
         <ctl name="COMP1 Switch" value="0" />
         <!--95 % of 20 register: 0x1AE-->
-        <ctl name="HPHL Volume" value="19" />
+        <ctl name="HPHL Volume" value="14" />
         <!--95 % of 20 register: 0x1B4-->
-        <ctl name="HPHR Volume" value="19" />
+        <ctl name="HPHR Volume" value="14" />
         <!--68 % of 124 (rounded) register: 0x2B7-->
         <ctl name="RX1 Digital Volume" value="84" />
         <!--68 % of 124 (rounded) register: 0x2BF-->
@@ -2249,13 +2249,13 @@
         <ctl name="HPHL DAC Switch" value="1" />
         <ctl name="COMP1 Switch" value="0" />
         <!--95 % of 20 register: 0x1AE-->
-        <ctl name="HPHL Volume" value="19" />
+        <ctl name="HPHL Volume" value="14" />
         <!--95 % of 20 register: 0x1B4-->
-        <ctl name="HPHR Volume" value="19" />
+        <ctl name="HPHR Volume" value="14" />
         <!--61 % of 124 (rounded) register: 0x2B7-->
-        <ctl name="RX1 Digital Volume" value="76" />
+        <ctl name="RX1 Digital Volume" value="84" />
         <!--61 % of 124 (rounded) register: 0x2BF-->
-        <ctl name="RX2 Digital Volume" value="76" />
+        <ctl name="RX2 Digital Volume" value="84" />
     </path>
 
     <path name="headphones-hi-res">
@@ -3616,7 +3616,6 @@
     </path>
 
     <path name="voiceanc-headset">
-        <ctl name="AUDIO_REF_EC_UL1 MUX" value="None" />
         <ctl name="AIF1_CAP Mixer SLIM TX7" value="1"/>
         <ctl name="SLIM_0_TX Channels" value="One" />
         <ctl name="IIR2 Enable Band1" value="1" />
